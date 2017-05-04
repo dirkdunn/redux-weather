@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import SearchBar from '../containers/SearchBar';
+import WeatherList from '../containers/WeatherList';
 
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+        <h1>React Redux Weather App</h1>
+        <SearchBar />
+        <WeatherList />
+      </div>
+
     );
   }
 }
